@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="http://chancejs.com/chance.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+ <div id="app" style="font-size: 40px">
+  {{ message }}{{ 5 * 404 }}.
+</div>
+<script>
+const app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hei, friends! It is year '
+  }
+})
+</script>
+</body>
+</html>

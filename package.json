@@ -1,0 +1,37 @@
+{
+    "name": "newsssblog",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore",
+        "newpost": "node scripts/newPost.js"
+    },
+    "dependencies": {
+        "@fullhuman/postcss-purgecss": "^2.1.2",
+        "@gridsome/plugin-google-analytics": "^0.1.0",
+        "@gridsome/plugin-sitemap": "^0.2.3",
+        "@gridsome/remark-prismjs": "^0.3.0",
+        "@gridsome/source-filesystem": "^0.6.2",
+        "@gridsome/transformer-remark": "^0.5.0",
+        "@gridsome/vue-remark": "^0.2.1",
+        "axios": "^0.19.2",
+        "chance": "^1.1.6",
+        "gridsome": "^0.7.13",
+        "gridsome-plugin-remark-shiki": "^0.3.1",
+        "gridsome-plugin-rss": "^1.2.0",
+        "medium-zoom": "^1.0.5",
+        "random": "^2.2.0",
+        "vue-disqus": "^3.0.5",
+        "vue-gallery": "^2.0.1",
+        "vue-parallaxy": "^1.1.1",
+        "vue-remark": "^0.4.0",
+        "vue-social-sharing": "^2.4.7"
+    },
+    "devDependencies": {
+        "moment": "^2.24.0",
+        "postcss-import": "^12.0.1",
+        "postcss-nested": "^4.2.1",
+        "tailwindcss": "^1.2.0"
+    }
+}
